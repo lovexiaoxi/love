@@ -16,7 +16,7 @@ const routes: RouteRecordRaw[] = [
 ]
 
 const router = createRouter({
-  history: createWebHashHistory('/dist'),
+  history: createWebHashHistory('/love/dist'),
   routes
 })
 
