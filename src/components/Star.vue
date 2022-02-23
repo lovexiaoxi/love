@@ -7,10 +7,12 @@
 </template>
 
 <script setup lang="ts">
-import { onMounted } from 'vue';
+import { nextTick, onMounted } from 'vue';
 
 onMounted(() => {
-  import('../plugins/star.js' as any)
+  nextTick(() => {
+    import('../plugins/star.js' as any)
+  })
 })
 </script>
 

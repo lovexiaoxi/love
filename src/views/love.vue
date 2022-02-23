@@ -45,6 +45,7 @@
           style="background-color: #1765ae;border-color: #165d9d;"
           type="primary"
           @click="gotoWish"
+          size="small"
         >点这里！来看我想对小溪说的话！</ElButton>
       </template>
     </ElDialog>
@@ -93,7 +94,7 @@ const gotoWish = () => {
 }
 </script>
 
-<style lang="less" scoped>
+<style lang="less">
 .love {
   position: relative;
   z-index: 1;

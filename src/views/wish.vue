@@ -9,7 +9,14 @@
         <div>虽然和小溪相处的时间还不长，但我仿佛感觉已经认识了好多年一样，和小溪相处的点点滴滴，让我看到了活泼可爱的小溪、认真努力的小溪、体贴并善解人意的小溪，当然也有令我心疼的情绪化的小溪、憨憨的小溪，小溪的每个样子，我都喜欢！和小溪相处的每时每刻，都感觉到无比开心！</div>
         <div>想和小溪一起去吃好吃的，去逛街，去游乐场，想要更了解小溪，想知道更多小溪喜欢的东西，想要小溪能一直开心，想把小溪揽入怀里，想和小溪一起生活、共同成长，还有好多好多想做的事情，我真的真的好喜欢小溪！</div>
         <div>单纯的文字总是无力，希望能有一天当面正式地向小溪告白。希望自己的想法能真正传达给小溪。</div>
-        <div style="text-align: right;" @click="gotoEgg">2022-2-22</div>
+
+        <div style="text-align: right;">
+          <div>
+            <span>爱你的呆</span>
+            <span @click="gotoEgg">瓜</span>
+          </div>
+          <div>2022-2-22</div>
+        </div>
       </div>
     </div>
   </div>
@@ -23,6 +30,7 @@ import { useRouter } from 'vue-router'
 const router = useRouter()
 
 const gotoEgg = () => {
+  console.log('1212')
   router.push('/egg')
 
 }

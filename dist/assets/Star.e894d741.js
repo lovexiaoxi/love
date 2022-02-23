@@ -1,1 +1,0 @@
-import{a as t}from"./index.1cac16fe.js";import{j as _,v as s,o,k as a,l as e}from"./vendor.5be0e915.js";const n=e("div",{class:"landscape"},null,-1),l=e("div",{class:"filter"},null,-1),c=e("canvas",{id:"canvas",height:"937"},null,-1),i=[n,l,c],m=_({setup(r){return s(()=>{t(()=>import("./star.06b47056.js"),[])}),(d,p)=>(o(),a("div",null,i))}});export{m as _};

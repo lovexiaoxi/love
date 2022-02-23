@@ -7,10 +7,12 @@
 </template>
 
 <script setup lang="ts">
-import { onMounted } from 'vue';
+import { nextTick, onMounted } from 'vue';
 
 onMounted(() => {
-  import('../plugins/particle.js' as any)
+  nextTick(() => {
+    import('../plugins/particle.js' as any)
+  })
 }) 
 </script>
 
