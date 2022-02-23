@@ -30,7 +30,6 @@ import { useRouter } from 'vue-router'
 const router = useRouter()
 
 const gotoEgg = () => {
-  console.log('1212')
   router.push('/egg')
 
 }
@@ -51,7 +50,7 @@ const gotoEgg = () => {
       line-height: 1.8;
       > div:nth-child(1) {
         opacity: 0;
-        animation: fade 3s linear 0s forwards;
+        animation: fade 3s linear 2s forwards;
       }
       > div:nth-child(2) {
         opacity: 0;
