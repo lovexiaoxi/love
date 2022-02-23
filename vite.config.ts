@@ -20,5 +20,5 @@ export default defineConfig({
   server: {
     port: 3002
   },
-  base: '/love/dist'
+  base: '/love/dist/'
 })
